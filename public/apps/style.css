@@ -1,0 +1,117 @@
+@import "../navbar.css";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #262626;
+}
+
+@media screen and (max-width: 555px) {
+  nav a:not(:first-child) {display: none;}
+  nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  nav.responsive {position: relative;}
+  nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+#card1, #card2, #card5 {
+  outline: 3.5px solid #7A2DFF;
+  floating: center;
+  width: 5.5%;
+  height: 150px;
+  color: white;
+  padding: 4.5rem;
+    transition: 0.2s;
+  text-align: center;
+
+}
+#card3, #card4 {
+  outline: 3.5px solid #7A2DFF;
+  floating: center;
+  width: 5.5%;
+  height: 150px;
+  color: white;
+  padding: 4.5rem;
+    transition: 0.2s;
+  text-align: center;
+}
+#card3:hover, #card4:hover {
+  background-color: #7A2DFF;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#card1:hover, #card2:hover, #card5:hover {
+  background-color:  #7A2DFF;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#theapps {
+  margin-left: 185px;
+  margin-top: 45.5px;
+  max-width: 1000px;
+  margin: 10 auto;
+  display: grid;
+  grid-gap: 1rem;
+  display: flex;
+flex-direction: row;
+  justify-content: center;
+}
+p {
+  color: white;
+}
+
+#card5 img {
+  width: 150px;
+  height: 150px;
+  margin: -50px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#card4 img {
+  width: 150px;
+  height: 150px;
+  margin: -50px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#card3 img {
+  width: 150px;
+  height: 150px;
+  margin: -50px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#card2 img {
+  width: 150px;
+  height: 150px;
+  margin: -50px;
+  margin-top: 25px;
+  margin-right: 10px;
+}
+
+#card1 img {
+  width: 150px;
+  height: 150px;
+  margin: -50px;
+  margin-top: 25px;
+  margin-right: 10px;
+  align: center;
+}
