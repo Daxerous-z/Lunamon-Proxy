@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script src='index.js'></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+   <body>
+      <nav id="buildTopnav">
+      </nav>
+      <script>
+         $(function(){
+           $("#buildTopnav").load("../navbar.html");
+         });
+      </script>
+     <script>
+  var tabName = localStorage.getItem('tabname');
+  document.title = (tabName)
+</script>
+   </head>
+   <body>
+      <nav id="buildTopnav">
+      </nav>
+      <script>
+         $(function(){
+           $("#buildTopnav").load("../navbar.html");
+         });
+      </script>
+      <div id="main"></div>
+      <div id="theapps">
+         <div id="card1" onclick="loadDisney()">Disney+</div>
+         <div id="card2" onclick="loadWebtoon()">Webtoon</div>
+          <div id="card3" onclick="loadNetflix()">Netflix</div>
+         <div id="card4" onclick="loadTwitch()">Twitch</div>
+        <div id="card5" onclick="loadPin()">Pinterest</div>
+   </body>
+</html>
